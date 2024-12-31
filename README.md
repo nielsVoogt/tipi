@@ -1,0 +1,1 @@
+https://blog.openreplay.com/authentication-in-react-with-supabase/

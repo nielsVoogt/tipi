@@ -8,12 +8,13 @@ import { Register } from "./pages/auth/Register";
 const App = () => {
   return (
     <Routes>
+      <Route path="/register" element={<Register />} />
+      <Route path="/login" element={<Login />} />
+
       <Route element={<AuthRoute />}>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
       </Route>
-      <Route path="/register" element={<Register />} />
-      <Route path="/login" element={<Login />} />
     </Routes>
   );
 };
